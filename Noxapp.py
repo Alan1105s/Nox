@@ -33,9 +33,9 @@ catalogo = [
 
 # --- FUNCIÓN PARA CLASIFICAR EL PH ---
 def clasificar_ph(ph_valor):
-    if ph_valor < 4.8:
+    if ph_valor < 4.5:
         return "muy_acido"
-    elif 4.8 <= ph_valor <= 5.2:
+    elif 4.5 <= ph_valor <= 5.2:
         return "acido"
     elif 5.3 <= ph_valor <= 5.6:
         return "equilibrado"
