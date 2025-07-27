@@ -1,5 +1,9 @@
 import streamlit as st
+with open("style.css") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
+# Mostrar logo
+st.image("logo.png", width=150)
 # --- BASE DE DATOS DE PERFUMES ---
 catalogo = [
     {"nombre": "Very Good Girl", "sexo": "mujer", "esencia": "floral", "ph": "acido"},
