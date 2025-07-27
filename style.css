@@ -1,0 +1,17 @@
+body {
+    background-color: #000000;
+    color: #FFD700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FFD700;
+    font-family: 'Georgia', serif;
+}
+
+.stButton > button {
+    background-color: #FFD700;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
